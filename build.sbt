@@ -16,6 +16,5 @@ resolvers ++= Seq(
 seq(sbtassembly.Plugin.assemblySettings: _*)
 
 libraryDependencies ++= Seq(
-  "com.reportgrid" % "blueeyes_2.9.0-1" % "0.4.16" % "compile",
-  "com.twitter" % "querulous" % "2.3.0" % "compile"
+  "com.reportgrid" % "blueeyes_2.9.0-1" % "0.4.16" % "compile"
 )
