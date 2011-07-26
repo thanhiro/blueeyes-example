@@ -31,7 +31,7 @@ trait FooService extends BlueEyesServiceBuilder with HttpRequestCombinators
         }
 
       } ->
-      shutdown { windConfig: FooConfig =>
+      shutdown { config: FooConfig =>
         ().future
       }
     }
